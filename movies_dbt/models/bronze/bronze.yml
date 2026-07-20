@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: BRONZE
+    database: MOVIES_DATABASE
+    schema: BRONZE
+
+    tables:
+      - name: movies
+      - name: movies_updates
+      - name: updated_movie_ids
